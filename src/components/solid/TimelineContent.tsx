@@ -26,7 +26,7 @@ const TimelineContent = ({
   };
 
   return (
-    <div class="content">
+    <div class="timeline-content">
       <TimelineContentDate {...{ startDate, endDate }} />
 
       <h4>

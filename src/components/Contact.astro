@@ -1,0 +1,89 @@
+---
+import { Icon } from "astro-icon/components";
+
+import config from "../config";
+import type { NetworkInfo } from "../types";
+
+interface Props {
+  networkInfo: NetworkInfo;
+  email: string;
+}
+
+type ProfileItem = {
+  content: string;
+  url: string;
+  icon: string;
+  additonalClasses?: string;
+};
+
+const { networkInfo, email } = Astro.props;
+
+const networkProfileItems = networkInfo.map(({ network, url }) => ({
+  content: network,
+  icon: network.toLowerCase(),
+  url,
+}));
+
+const profileItems: ProfileItem[] = [
+  {
+    content: "Contact me",
+    url: `mailto:${email}`,
+    icon: "mail",
+    additonalClasses: "cta",
+  },
+  ...networkProfileItems,
+  {
+    content: "Grab my CV",
+    url: config.CV_PATH,
+    icon: "open-new-window",
+    additonalClasses: "cta-secondary",
+  },
+];
+---
+
+<div class="contact-info">
+  <ul>
+    {
+      profileItems.map(({ content, icon, url, additonalClasses = "" }) => (
+        <li>
+          <a class="profile-link" href={url} target="_blank">
+            <div class:list={["card", "profile-card", additonalClasses]}>
+              <Icon name={`iconoir:${icon}`} />
+              {content}
+            </div>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</div>
+
+<style scoped lang="postcss">
+.contact-info {
+  @apply mt-8;
+}
+
+ul {
+  @apply mt-3 flex flex-wrap; 
+}
+
+.profile-card {
+  @apply flex items-center px-2 py-1 hover:opacity-70 duration-200 text-sm;
+  
+  &.cta {
+    @apply bg-mfed-decoration text-mfed-background capitalize;
+  }
+
+  &.cta-secondary {
+    @apply text-mfed-decoration bg-mfed-background hover:bg-mfed-background-accent;
+  }
+
+  svg {
+    @apply shrink-0 w-6 h-6 mr-2 hover:cursor-pointer;
+  }
+}
+
+.profile-link {
+  @apply no-underline before:!hidden hover:text-inherit whitespace-nowrap mr-3 mb-2;
+}
+</style>
