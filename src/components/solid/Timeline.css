@@ -1,0 +1,59 @@
+@keyframes ping {
+
+  75%,
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+li {
+  &:first-child {
+    .timeline-item .indicator {
+      &::before {
+        animation: ping 4s cubic-bezier(0, 0, 0.2, 1) infinite;
+        @apply content-[''] absolute w-2 h-2 -left-[.125rem] -top-[.125rem] bg-mfed-tertiary rounded-full opacity-75;
+      }
+
+      @apply bg-mfed-primary;
+    }
+  }
+
+  .timeline-item {
+    @apply flex flex-col items-center mt-[.6rem];
+
+    .indicator {
+      @apply w-2 h-2 rounded-full shrink-0 border-2 border-solid border-mfed-primary relative;
+
+      &.empty {
+        @apply border-0 flex justify-center items-start h-6;
+
+        svg {
+          @apply w-5 h-5 shrink-0;
+        }
+      }
+    }
+
+    .bar {
+      @apply w-[1px] h-full bg-mfed-tertiary mt-2;
+    }
+  }
+}
+
+
+.content {
+  @apply pb-10 pl-7;
+
+  h4 {
+    @apply inline-flex mt-1 mb-4 flex-col items-start;
+
+    span,
+    a {
+      @apply flex items-start text-xs mt-1;
+    }
+  }
+
+  p {
+    @apply text-mfed-tertiary text-sm;
+  }
+}

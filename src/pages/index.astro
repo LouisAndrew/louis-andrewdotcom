@@ -1,0 +1,16 @@
+---
+import resume from "../../resume.json" with { type: "json" };
+import Experience from "../components/Experience.astro";
+import Hero from "../components/Hero.astro";
+import Layout from "../layouts/Layout.astro";
+
+const { basics, work, education } = resume;
+---
+
+<Layout title="Welcome to Astro.">
+  <Hero basics={basics} />
+
+  <Experience workInfo={work} educationInfo={education} />
+</Layout>
+
+<style scoped lang="postcss"></style>

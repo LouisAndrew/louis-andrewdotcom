@@ -1,0 +1,76 @@
+---
+import Debug from "../components/Debug.astro";
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/Varys.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header>header stuff here</header>
+
+    <main>
+      <slot />
+    </main>
+
+    <Debug />
+  </body>
+</html>
+
+<style lang="postcss" is:global>
+body {
+  @apply w-full grid place-items-center bg-mfed-background text-mfed-secondary container mx-auto
+    px-10 lg:px-28 xl:px-40 2xl:max-w-5xl 2xl:px-0 font-body tracking-widest font-light;
+}
+
+h1 {
+  @apply text-3xl uppercase text-white font-bold font-sans;
+}
+
+h3 {
+  @apply text-lg font-sans text-mfed-secondary font-semibold;
+}
+
+h4 {
+  @apply text-sm text-gray-200 tracking-[.2rem] font-medium font-sans;
+}
+
+a {
+  @apply relative duration-200 z-10 underline decoration-mfed-decoration decoration-2 md:no-underline inline-block;
+
+  &::before {
+    @apply opacity-0 md:opacity-100 left-0 right-0 content-[''] absolute duration-200 h-[2px] bottom-0 bg-mfed-decoration z-[-1];
+  }
+
+  &:hover {
+    @apply sm:text-inherit md:text-mfed-background;
+    &::before {
+      @apply h-[calc(100%+2px)] bottom-[-1px];
+    }
+  }
+}
+
+header {
+  @apply py-7 w-full;
+}
+</style>

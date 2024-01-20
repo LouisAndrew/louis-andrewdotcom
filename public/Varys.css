@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Varys-Thin.woff2') format('woff2'), url('TTF/Varys-Thin.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  src: url('/fonts/Varys-UltraExtendedThin.woff2') format('woff2'), url('TTF/Varys-UltraExtendedThin.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Varys-ExtraLight.woff2') format('woff2'), url('TTF/Varys-ExtraLight.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  src: url('/fonts/Varys-UltraExtendedExtraLight.woff2') format('woff2'), url('TTF/Varys-UltraExtendedExtraLight.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Varys-Light.woff2') format('woff2'), url('TTF/Varys-Light.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  src: url('/fonts/Varys-UltraExtendedLight.woff2') format('woff2'), url('TTF/Varys-UltraExtendedLight.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Varys-Regular.woff2') format('woff2'), url('TTF/Varys-Regular.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  src: url('/fonts/Varys-UltraExtended.woff2') format('woff2'), url('TTF/Varys-UltraExtended.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Varys-Medium.woff2') format('woff2'), url('TTF/Varys-Medium.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  src: url('/fonts/Varys-UltraExtendedMedium.woff2') format('woff2'), url('TTF/Varys-UltraExtendedMedium.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Varys-SemiBold.woff2') format('woff2'), url('TTF/Varys-SemiBold.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  src: url('/fonts/Varys-UltraExtendedSemiBold.woff2') format('woff2'), url('TTF/Varys-UltraExtendedSemiBold.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Varys-Bold.woff2') format('woff2'), url('TTF/Varys-Bold.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  src: url('/fonts/Varys-UltraExtendedBold.woff2') format('woff2'), url('TTF/Varys-UltraExtendedBold.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Varys-ExtraBold.woff2') format('woff2'), url('TTF/Varys-ExtraBold.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  src: url('/fonts/Varys-UltraExtendedExtraBold.woff2') format('woff2'), url('TTF/Varys-UltraExtendedExtraBold.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('/fonts/Varys-Heavy.woff2') format('woff2'), url('TTF/Varys-Heavy.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'Varys Web';
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  src: url('/fonts/Varys-UltraExtendedHeavy.woff2') format('woff2'), url('TTF/Varys-UltraExtendedHeavy.TTF') format('truetype');
+}

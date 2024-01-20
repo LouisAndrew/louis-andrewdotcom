@@ -1,0 +1,45 @@
+---
+import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
+
+import avatar from "../assets/avatar.jpg" with { type: "asset" };
+import type { Basics } from "../types";
+interface Props {
+  basics: Basics;
+}
+
+const { basics } = Astro.props;
+---
+
+<div class="hero">
+  <Image class="avatar" src={avatar} alt="Avatar" />
+
+  <h1>Hello, World!<br /> My name is {basics.name}.</h1>
+
+  <section>
+    {basics.summary}
+
+    <div
+      class="flex text-xs items-center mt-3 text-mfed-tertiary font-medium font-sans uppercase"
+    >
+      <Icon class="mr-4 scale-150" name="bx:map-pin" />
+      Based in {basics.location.city}, {basics.location.country}
+    </div>
+  </section>
+</div>
+
+<style scoped lang="postcss">
+.avatar {
+  @apply rounded-xl w-24 col-start-1 col-end-2 row-start-1 row-end-3
+    sm:w-32 mb-6 sm:mb-10 md:mb-8;
+}
+
+.hero {
+  @apply grid gap-x-10 grid-cols-1;
+}
+
+ h1 {
+   @apply inline-block pb-4;
+ }
+
+</style>
