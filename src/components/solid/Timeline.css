@@ -20,7 +20,7 @@ li {
   }
 
   .timeline-item {
-    @apply flex flex-col items-center mt-[.6rem];
+    @apply flex flex-col items-center mt-[.6rem] pr-7;
 
     .indicator {
       @apply w-2 h-2 rounded-full shrink-0 border-2 border-solid border-mfed-primary relative;
@@ -41,15 +41,15 @@ li {
 }
 
 
-.content {
-  @apply pb-10 pl-7;
+.timeline-content {
+  @apply pb-10;
 
   h4 {
-    @apply inline-flex mt-1 mb-4 flex-col items-start;
+    @apply inline-flex mt-1 mb-4 flex-col items-start font-bold text-base;
 
     span,
     a {
-      @apply flex items-start text-xs mt-1;
+      @apply flex items-start text-sm mt-1 font-normal;
     }
   }
 

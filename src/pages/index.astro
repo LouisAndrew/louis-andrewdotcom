@@ -1,16 +1,23 @@
 ---
 import resume from "../../resume.json" with { type: "json" };
+import Contact from "../components/Contact.astro";
 import Experience from "../components/Experience.astro";
 import Hero from "../components/Hero.astro";
+import Projects from "../components/Projects.astro";
+import config from "../config";
 import Layout from "../layouts/Layout.astro";
 
 const { basics, work, education } = resume;
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Louis Andrew | Portfolio Site">
   <Hero basics={basics} />
+  <Contact networkInfo={basics.profiles} email={basics.email} />
 
   <Experience workInfo={work} educationInfo={education} />
+
+  <!-- Projects WIP -->
+  {config.DISPLAY_PROJECTS && <Projects />}
 </Layout>
 
 <style scoped lang="postcss"></style>

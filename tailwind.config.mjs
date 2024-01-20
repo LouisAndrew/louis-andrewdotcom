@@ -9,10 +9,11 @@ export default {
       fontFamily: {
         mono: ["'Varys Web'", ...defaultTheme.fontFamily.mono],
         sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
-        body: ["'Space Grotesk'", ...defaultTheme.fontFamily.sans],
+        body: ["'Plus Jakarta Sans'", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         "mfed-background": "#131313",
+        "mfed-background-accent": "#1f2425",
         "mfed-primary": "#ffffff",
         "mfed-secondary": colors.gray[200],
         "mfed-tertiary": "#bfbfbf",

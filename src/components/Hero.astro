@@ -16,13 +16,13 @@ const { basics } = Astro.props;
 
   <h1>Hello, World!<br /> My name is {basics.name}.</h1>
 
-  <section>
+  <section class="font-thin">
     {basics.summary}
 
     <div
       class="flex text-xs items-center mt-3 text-mfed-tertiary font-medium font-sans uppercase"
     >
-      <Icon class="mr-4 scale-150" name="bx:map-pin" />
+      <Icon class="mr-4 scale-[2]" name="iconoir:pin" />
       Based in {basics.location.city}, {basics.location.country}
     </div>
   </section>

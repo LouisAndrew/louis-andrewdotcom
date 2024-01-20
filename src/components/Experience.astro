@@ -1,7 +1,7 @@
 ---
 import type { EducationInfo, Job } from "../types";
-import type { TimelineItem } from "./solid/Timeline.tsx";
-import Timeline from "./solid/Timeline.tsx";
+import type { TimelineItem } from "./solid/Timeline";
+import Timeline from "./solid/Timeline";
 
 interface Props {
   workInfo: Job[];
@@ -9,17 +9,22 @@ interface Props {
 }
 
 const { workInfo } = Astro.props;
-const workItems = workInfo.map(
-  (work): TimelineItem => ({
-    ...work,
-    institution: work.name,
-    institutionUrl: work.url,
-  })
-);
+const workItems = workInfo
+  .map(
+    (work): TimelineItem => ({
+      ...work,
+      institution: work.name,
+      institutionUrl: work.url,
+    })
+  )
+  .sort((a, b) => {
+    if (!a.endDate) return -1;
+    if (!b.endDate) return 1;
+
+    return new Date(a.endDate).getTime() - new Date(b.endDate).getTime();
+  });
 ---
 
-<section class="mt-14 md:mt-18">
+<section class="space-y-10 mt-14 md:mt-16">
   <Timeline items={workItems} />
-
-  <h2 class="mt-14 md:mt-18 text-2xl font-bold">TODO EDUCATION HERE</h2>
 </section>
