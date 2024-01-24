@@ -5,7 +5,7 @@
     "label": "Software Engineer",
     "email": "louisandrew3@gmail.com",
     "url": "https://louis-andrew.com",
-    "summary": "I'm a software engineer with expertise in developing visually appealing and highly functional web applications. Proficient in front-end development, but more than comfortable working on the back-end, ensuring robust and efficient application functionality. Committed to delivering high-quality and maintainable code following the best practices and industry standard.",
+    "summary": "I'm a software engineer. I love to build things (especially web applications) and I also like to hack things around!",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -26,7 +26,7 @@
       "position": "Software Engineer",
       "name": "Share NOW GmbH / Free2Move",
       "startDate": "2023-09-01",
-      "summary": "Working as full-stack engineer in Share NOW (later acquired by Free2Move), also acting as the frontend lead for the team. I worked in a team that's responsible for the backoffice application in the company among other customer-facing applications focused on improving customer-service experience of the customers.",
+      "summary": "Acting as the lead frontend engineer in the team alongside being a mentor to other engineers. Also, dove deep into asynchronous messaging by building a system that processes live rental data.\n\n Stack: Nuxt3/Vue3, Tailwind, GraphQL/Apollo, TypeScript, Node/Express",
       "highlights": [
         "Lead frontend engineer in the team. Responsible in the frontend architectural decisions and mentoring other engineers.",
         "Core team member of company-wide component library and design system. Responsible in its API design and feature developments.",
@@ -42,7 +42,7 @@
       "name": "Share NOW GmbH",
       "startDate": "2022-08-30",
       "endDate": "2023-09-01",
-      "summary": "Working as associate software engineer (mostly focused on the frontend) in Share NOW, continuing in the same team as I was during my internship. Share NOW is a German car-sharing company. I worked in a team that's responsible for the backoffice application in the company, that also serves as the \"container\" where other teams can also plug-in their own micro-frontends.",
+      "summary": "Continuing my work in Share NOW right after graduating from my studies. Created and succesfully executed a migration plan to migrate the company backoffice application (Vue 2) into a Nuxt3 (Vue3) project, thus increasing its performance (LCP, 75th percentile) from 4.2s to 2s.\n\nStack: Vue2 + Nuxt3/Vue3, Tailwind, GraphQL/Apollo, TypeScript, Node/Express",
       "highlights": [
         "Created and succesfully executed a migration plan to migrate a big code base consisting of 15 micro-frontends (written in Vue2) into a single Nuxt3 (Vue3) project",
         "Core team member of company-wide component library and design system. Migrated the company-wide component library from Vue2 to Vue3",
@@ -58,8 +58,8 @@
       "position": "Software Engineer Intern",
       "name": "Share NOW GmbH",
       "startDate": "2021-03-15",
-      "endDate": "2023-08-30",
-      "summary": "Working as a working student/intern in Share NOW alongside my studies. Share NOW is a German car-sharing company. I worked in a team that's responsible for the backoffice application in the company, that also serves as the \"container\" where other teams can also plug-in their own micro-frontends.",
+      "endDate": "2022-08-30",
+      "summary": "Working as a software-engineer intern alongside my studies. Contributed into the backoffice application of the company, built with micro-frontend architecture and to the company-wide component library.\n\nStack: Vue2, SCSS, GraphQL, TypeScript/JavaScript",
       "highlights": [
         "Worked on the backoffice application of the company, built with Vue2 and micro-frontend architecture at its core. Worked closely in consuming GraphQL APIs with Apollo.",
         "Contributed to company-wide component library (built in Vue2). Migrated existing components from JavaScript to TypeScript.",
@@ -74,7 +74,7 @@
       "name": "Etheral",
       "startDate": "2020-08-01",
       "endDate": "2020-12-01",
-      "summary": "Etheral is a local business in Indonesia that sells handmade jewelries. I worked with them to build their e-commerce website etheralmade.com.",
+      "summary": "Etheral is a local business in Indonesia that sells handmade jewelries. I worked with them to build their e-commerce website https://etheralmade.com. Unfortunately the original domain is no longer available, the site is still accessible at https://fervent-minsky-bc0840.netlify.app/.\n\nFeature for the site includes: payment integration, mailing list subscription, multi-user admin dashboard, on-demand shipping cost calculation, and order confirmation email.\n\nStack: React/Gatsby, Styled Components, Firestore, Netlify Lambda, TypeScript",
       "highlights": [
         "Built the e-commerce website from scratch. Worked closely with the client to design the website and its features.",
         "Implemented payment integration and mailing list subscription system with serverless functions.",
@@ -84,7 +84,7 @@
         "Tech Stack: React/Gatsby, Styled Components, Firestore, Netlify Lambda, TypeScript"
       ],
       "url": "https://fervent-minsky-bc0840.netlify.app/",
-      "location": "Jakarta, Indonesia"
+      "location": "Jakarta, Indonesia (Remote)"
     }
   ],
   "education": [

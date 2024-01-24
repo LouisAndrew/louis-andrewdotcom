@@ -15,13 +15,14 @@ const workItems = workInfo
       ...work,
       institution: work.name,
       institutionUrl: work.url,
+      location: work.location,
     })
   )
   .sort((a, b) => {
     if (!a.endDate) return -1;
     if (!b.endDate) return 1;
 
-    return new Date(a.endDate).getTime() - new Date(b.endDate).getTime();
+    return new Date(b.endDate).getTime() - new Date(a.endDate).getTime();
   });
 ---
 

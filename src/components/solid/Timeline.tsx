@@ -11,6 +11,7 @@ export type TimelineItem = {
   position: string;
   institution: string;
   institutionUrl?: string;
+  location: string;
 };
 
 type Props = {
