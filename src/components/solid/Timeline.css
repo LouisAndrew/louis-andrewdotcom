@@ -38,6 +38,12 @@ li {
       @apply w-[1px] h-full bg-mfed-tertiary mt-2;
     }
   }
+
+  &:last-child {
+    .timeline-content {
+      @apply pb-6;
+    }
+  }
 }
 
 
