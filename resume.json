@@ -30,9 +30,9 @@
       "highlights": [
         "Lead frontend engineer in the team. Responsible in the frontend architectural decisions and mentoring other engineers.",
         "Core team member of company-wide component library and design system. Responsible in its API design and feature developments.",
-        "Worked with WebViews and Micro-Frontend architecture.",
+        "Worked with WebViews and Micro-Frontend architecture",
         "Designed and implemented asynchronous system with message queues that processes live rental data",
-        "Tech Stack: Nuxt3/Vue3, Tailwind, GraphQL, TypeScript, Node, Docker + K8s, RabbitMQ, AWS, Terraform"
+        "Tech Stack: Nuxt3/Vue3, Tailwind, GraphQL, TypeScript, Node, Docker + K8s, RabbitMQ"
       ],
       "url": "https://www.share-now.com",
       "location": "Berlin, Germany"
@@ -44,18 +44,16 @@
       "endDate": "2023-09-01",
       "summary": "Continuing my work in Share NOW right after graduating from my studies. Created and succesfully executed a migration plan to migrate the company backoffice application (Vue 2) into a Nuxt3 (Vue3) project, thus increasing its performance (LCP, 75th percentile) from 4.2s to 2s.\n\nStack: Vue2 + Nuxt3/Vue3, Tailwind, GraphQL/Apollo, TypeScript, Node/Express",
       "highlights": [
-        "Created and succesfully executed a migration plan to migrate a big code base consisting of 15 micro-frontends (written in Vue2) into a single Nuxt3 (Vue3) project",
         "Core team member of company-wide component library and design system. Migrated the company-wide component library from Vue2 to Vue3",
-        "Worked with multiple teams to help them during the migration process of their micro-frontends (Vue2 to Vue3). Communicating migration plans and deadlines.",
+        "Worked with multiple teams to help them during the migration process of their micro-frontends (Vue2 to Vue3). Communicating migration plans and deadlines",
         "Increased web performance of the app (Last Contentful Paint / LCP) from 4.2s to 2.6s",
-        "Worked closely with GraphQL APIs, creating resolvers and extending auto-generated schemas.",
         "Tech Stack: Vue2, Nuxt3/Vue3, Tailwind, GraphQL, TypeScript, Node,  Docker + K8s, Terraform"
       ],
       "url": "https://www.share-now.com",
       "location": "Berlin, Germany"
     },
     {
-      "position": "Software Engineer Intern",
+      "position": "Working Student (Software Engineer)",
       "name": "Share NOW GmbH",
       "startDate": "2021-03-15",
       "endDate": "2022-08-30",
@@ -63,7 +61,6 @@
       "highlights": [
         "Worked on the backoffice application of the company, built with Vue2 and micro-frontend architecture at its core. Worked closely in consuming GraphQL APIs with Apollo.",
         "Contributed to company-wide component library (built in Vue2). Migrated existing components from JavaScript to TypeScript.",
-        "Built CLI tool to automate the process of generating TypeScript types from a remote GraphQL schema.",
         "Tech Stack: Vue2, SCSS, GraphQL, TypeScript/JavaScript"
       ],
       "url": "https://www.share-now.com",
@@ -77,10 +74,8 @@
       "summary": "Etheral is a local business in Indonesia that sells handmade jewelries. I worked with them to build their e-commerce website https://etheralmade.com. Unfortunately the original domain is no longer available, the site is still accessible at https://fervent-minsky-bc0840.netlify.app/.\n\nFeature for the site includes: payment integration, mailing list subscription, multi-user admin dashboard, on-demand shipping cost calculation, and order confirmation email.\n\nStack: React/Gatsby, Styled Components, Firestore, Netlify Lambda, TypeScript",
       "highlights": [
         "Built the e-commerce website from scratch. Worked closely with the client to design the website and its features.",
-        "Implemented payment integration and mailing list subscription system with serverless functions.",
-        "Implemented auth system with firebase auth",
+        "Implemented auth system with firebase auth, payment integration as well as mailing list subscription system",
         "Implemented multi-user admin dashboard to manage orders and products.",
-        "Implemented on-demand shipping cost calculation and order confirmation email.",
         "Tech Stack: React/Gatsby, Styled Components, Firestore, Netlify Lambda, TypeScript"
       ],
       "url": "https://fervent-minsky-bc0840.netlify.app/",
