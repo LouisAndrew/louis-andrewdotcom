@@ -26,11 +26,14 @@
       "position": "Senior Software Engineer",
       "name": "Free2Move Deutschland GmbH",
       "startDate": "2024-05-01",
-      "summary": "",
+      "summary": "Led development efforts across multiple projects while other engineers. Spearheaded process improvements and established engineering standards as well as providing technical guidance to stakeholders.\n\n Tech Stack: Nuxt3/Vue3, Tailwind, GraphQL, TypeScript, Node, Go, AWS Stack (SNS, SQS, etc.), Docker + K8s, RabbitMQ",
       "highlights": [
-        "Lead frontend engineer in the team. Responsible in the frontend architectural decisions and mentoring other engineers",
-        "Lead developer of the company wide component library and design system",
-        "Tech Stack: Nuxt3/Vue3, Tailwind, GraphQL, TypeScript, Node, Docker + K8s, RabbitMQ"
+        "Leading development efforts across multiple projects and provide mentoring to other engineers",
+        "Acting as the lead developer for a company-wide component library",
+        "Established processes to improve knowledge distribution across team members and preparatory plan to introduce other developers into the team oncall plan",
+        "Led an effort to standardize deployments and infrastructure provisioning for existing services",
+        "Led efforts to establish conventions and best practices within the team",
+        "Tech Stack: Nuxt3/Vue3, Tailwind, GraphQL, TypeScript, Node, Go, AWS Stack (SNS, SQS, etc.), Docker + K8s, RabbitMQ"
       ],
       "url": "https://www.free2move.com",
       "location": "Berlin, Germany"
@@ -131,13 +134,16 @@
       "name": "Jest/Vitest, Cypress/Playwright, Storybook"
     },
     {
-      "name": "MongoDB, PostgreSQL, Firebase"
+      "name": "MongoDB, RabbitMQ, PostgreSQL, Firebase"
+    },
+    {
+      "name": "Go"
     },
     {
       "name": "Gitlab CI/CD, Github Actions"
     },
     {
-      "name": "Docker, K8s"
+      "name": "Docker, Kubernetes, Terraform"
     }
   ],
   "languages": [
@@ -172,4 +178,3 @@
     }
   ]
 }
-
