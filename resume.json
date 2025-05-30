@@ -5,7 +5,7 @@
     "label": "Software Engineer",
     "email": "louisandrew3@gmail.com",
     "url": "https://louis-andrew.com",
-    "summary": "I'm a software engineer. I love to build things (especially web applications) and I also like to hack things around!",
+    "summary": "Software Engineer specializing in full-stack development with expertise in modern technologies such as Vue, React, TypeScript, and Node.js. Experienced in solving complex technical challenges and delivering measurable business impact. Passionate about writing clean, maintainable code, implementing industry best practices, and building scalable systems",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -28,12 +28,9 @@
       "startDate": "2024-05-01",
       "summary": "Led development efforts across multiple projects while other engineers. Spearheaded process improvements and established engineering standards as well as providing technical guidance to stakeholders.\n\n Tech Stack: Nuxt3/Vue3, Tailwind, GraphQL, TypeScript, Node, Go, AWS Stack (SNS, SQS, etc.), Docker + K8s, RabbitMQ",
       "highlights": [
-        "Leading development efforts across multiple projects and provide mentoring to other engineers",
-        "Acting as the lead developer for a company-wide component library",
-        "Established processes to improve knowledge distribution across team members and preparatory plan to introduce other developers into the team oncall plan",
-        "Led an effort to standardize deployments and infrastructure provisioning for existing services",
-        "Led efforts to establish conventions and best practices within the team",
-        "Tech Stack: Nuxt3/Vue3, Tailwind, GraphQL, TypeScript, Node, Go, AWS Stack (SNS, SQS, etc.), Docker + K8s, RabbitMQ"
+        "Leading development on the contact page (a WebView embedded into the native app) as an initiative of CS contact cost reduction, reducing direct calls and unstructured contact by providing alternative contact options such as context-aware contact options or chatbot",
+        "Established processes to improve knowledge distribution across team members and preparatory plan to introduce new team members into the team oncall rotation",
+        "Led efforts to establish conventions (e.g. deployment and/or provisioning methods) and best practices within the team as well as helped other team members through mentoring and frequent knowledge sharing"
       ],
       "url": "https://www.free2move.com",
       "location": "Berlin, Germany"
@@ -45,10 +42,8 @@
       "endDate": "2024-05-01",
       "summary": "Acting as the lead frontend engineer in the team alongside being a mentor to other engineers. Also, dove deep into asynchronous messaging by building a system that processes live rental data.\n\n Stack: Nuxt3/Vue3, Tailwind, GraphQL/Apollo, TypeScript, Node/Express",
       "highlights": [
-        "Core team member of company-wide component library and design system. Responsible in its API design and feature developments",
-        "Worked with WebViews and Micro-Frontend architecture",
-        "Designed and implemented asynchronous system with message queues that processes live rental data",
-        "Tech Stack: Nuxt3/Vue3, Tailwind, GraphQL, TypeScript, Node, Docker + K8s, RabbitMQ"
+        "Designed and implemented asynchronous system that processes live rental data so that suspicious rentals can be monitored and possibly marked to prevent fraud / theft attempts",
+        "Developed reimbursement feature for users that fueled a car during their rental, improving internal processes and reducing contact cost regarding fueling reimbursement"
       ],
       "url": "https://www.share-now.com",
       "location": "Berlin, Germany"
@@ -60,10 +55,8 @@
       "endDate": "2023-09-01",
       "summary": "Continuing my work in Share NOW right after graduating from my studies. Created and succesfully executed a migration plan to migrate the company backoffice application (Vue 2) into a Nuxt3 (Vue3) project, thus increasing its performance (LCP, 75th percentile) from 4.2s to 2s.\n\nStack: Vue2 + Nuxt3/Vue3, Tailwind, GraphQL/Apollo, TypeScript, Node/Express",
       "highlights": [
-        "Core team member of company-wide component library and design system. Migrated the company-wide component library from Vue2 to Vue3",
-        "Worked with multiple teams to help them during the migration process of their micro-frontends (Vue2 to Vue3). Communicating migration plans and deadlines",
-        "Increased web performance of the app (Largest Contentful Paint / LCP) from 4.2s to 2.6s",
-        "Tech Stack: Vue2, Nuxt3/Vue3, Tailwind, GraphQL, TypeScript, Node,  Docker + K8s, Terraform"
+        "Coordinated migration process of an application with micro-frontend architecture across multiple teams",
+        "Increased web performance of the app (Largest Contentful Paint / LCP) from 4.2s to 2.6s by reducing unecessary complexities and employing optimization methods such as proper code-splitting and cacheable assets"
       ],
       "url": "https://www.share-now.com",
       "location": "Berlin, Germany"
@@ -75,9 +68,7 @@
       "endDate": "2022-08-30",
       "summary": "Working as a software-engineer intern alongside my studies. Contributed into the backoffice application of the company, built with micro-frontend architecture and to the company-wide component library.\n\nStack: Vue2, SCSS, GraphQL, TypeScript/JavaScript",
       "highlights": [
-        "Worked on the backoffice application of the company, built with Vue2 and micro-frontend architecture at its core. Worked closely in consuming GraphQL APIs with Apollo",
-        "Contributed to company-wide component library (built in Vue2). Migrated existing components from JavaScript to TypeScript",
-        "Tech Stack: Vue2, SCSS, GraphQL, TypeScript/JavaScript"
+        "Worked on the backoffice application of the company, built with Vue2 and micro-frontend architecture at its core. Contributed to company-wide component library (built in Vue2). Migrated existing components to TypeScript"
       ],
       "url": "https://www.share-now.com",
       "location": "Berlin, Germany"
@@ -89,10 +80,7 @@
       "endDate": "2020-12-01",
       "summary": "Etheral is a local business in Indonesia that sells handmade jewelries. I worked with them to build their e-commerce website https://etheralmade.com. Unfortunately the original domain is no longer available, the site is still accessible at https://fervent-minsky-bc0840.netlify.app/.\n\nFeature for the site includes: payment integration, mailing list subscription, multi-user admin dashboard, on-demand shipping cost calculation, and order confirmation email.\n\nStack: React/Gatsby, Styled Components, Firestore, Netlify Lambda, TypeScript",
       "highlights": [
-        "Built the e-commerce website from scratch. Worked closely with the client to design the website and its features",
-        "Implemented auth system with firebase auth, payment integration as well as mailing list subscription system",
-        "Implemented multi-user admin dashboard to manage orders and products",
-        "Tech Stack: React/Gatsby, Styled Components, Firestore, Netlify Lambda, TypeScript"
+        "Built an e-commerce site for a local handmade jewelries busineess. Worked closely with the client to design the website and its features: user auth, payment integration, storage system and admin dashboard"
       ],
       "url": "https://fervent-minsky-bc0840.netlify.app/",
       "location": "Jakarta, Indonesia (Remote)"
@@ -113,25 +101,16 @@
   ],
   "skills": [
     {
-      "name": "HTML, CSS, JS/TS"
+      "name": "React/Next"
     },
     {
-      "name": "React/Next + Gatsby"
+      "name": "Vue/Nuxt"
     },
     {
-      "name": "Vue/Nuxt, Svelte"
+      "name": "SCSS, TailwindCSS"
     },
     {
-      "name": "SCSS, TailwindCSS, Styled Components"
-    },
-    {
-      "name": "Vite, Rollup, Webpack, Gulp"
-    },
-    {
-      "name": "Node/Express, Fastify, GraphQL, Apollo"
-    },
-    {
-      "name": "Jest/Vitest, Cypress/Playwright, Storybook"
+      "name": "Node/Express, Fastify, GraphQL, AWS"
     },
     {
       "name": "MongoDB, RabbitMQ, PostgreSQL, Firebase"
@@ -172,9 +151,4 @@
       "issuer": "Interaction Design Foundation"
     }
   ],
-  "projects": [
-    {
-      "name": ""
-    }
-  ]
 }
