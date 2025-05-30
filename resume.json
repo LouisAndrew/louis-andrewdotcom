@@ -28,7 +28,7 @@
       "startDate": "2024-05-01",
       "summary": "Led development efforts across multiple projects while other engineers. Spearheaded process improvements and established engineering standards as well as providing technical guidance to stakeholders.\n\n Tech Stack: Nuxt3/Vue3, Tailwind, GraphQL, TypeScript, Node, Go, AWS Stack (SNS, SQS, etc.), Docker + K8s, RabbitMQ",
       "highlights": [
-        "Leading development on the contact page (a WebView embedded into the native app) as an initiative of CS contact cost reduction, reducing direct calls and unstructured contact by providing alternative contact options such as context-aware contact options or chatbot",
+        "Leading development of in-app contact page (WebView) to as an effort to reduce customer service cost, reducing direct calls and unstructured contact by providing alternative contact options such as context-aware contact options or chatbot",
         "Established processes to improve knowledge distribution across team members and preparatory plan to introduce new team members into the team oncall rotation",
         "Led efforts to establish conventions (e.g. deployment and/or provisioning methods) and best practices within the team as well as helped other team members through mentoring and frequent knowledge sharing"
       ],
@@ -56,7 +56,7 @@
       "summary": "Continuing my work in Share NOW right after graduating from my studies. Created and succesfully executed a migration plan to migrate the company backoffice application (Vue 2) into a Nuxt3 (Vue3) project, thus increasing its performance (LCP, 75th percentile) from 4.2s to 2s.\n\nStack: Vue2 + Nuxt3/Vue3, Tailwind, GraphQL/Apollo, TypeScript, Node/Express",
       "highlights": [
         "Coordinated migration process of an application with micro-frontend architecture across multiple teams",
-        "Increased web performance of the app (Largest Contentful Paint / LCP) from 4.2s to 2.6s by reducing unecessary complexities and employing optimization methods such as proper code-splitting and cacheable assets"
+        "Increased web performance of the app (Largest Contentful Paint / LCP) from 4.2s to 2.6s by reducing unnecessary complexities and employing optimization methods such as proper code-splitting and cacheable assets"
       ],
       "url": "https://www.share-now.com",
       "location": "Berlin, Germany"
@@ -80,7 +80,7 @@
       "endDate": "2020-12-01",
       "summary": "Etheral is a local business in Indonesia that sells handmade jewelries. I worked with them to build their e-commerce website https://etheralmade.com. Unfortunately the original domain is no longer available, the site is still accessible at https://fervent-minsky-bc0840.netlify.app/.\n\nFeature for the site includes: payment integration, mailing list subscription, multi-user admin dashboard, on-demand shipping cost calculation, and order confirmation email.\n\nStack: React/Gatsby, Styled Components, Firestore, Netlify Lambda, TypeScript",
       "highlights": [
-        "Built an e-commerce site for a local handmade jewelries busineess. Worked closely with the client to design the website and its features: user auth, payment integration, storage system and admin dashboard"
+        "Built an e-commerce site for a local handmade jewelry business. Worked closely with the client to design the website and its features: user auth, payment integration, storage system and admin dashboard"
       ],
       "url": "https://fervent-minsky-bc0840.netlify.app/",
       "location": "Jakarta, Indonesia (Remote)"
@@ -95,7 +95,7 @@
       "endDate": "2022-09-01",
       "startDate": "2019-10-01",
       "studyType": "Bachelor",
-      "summary": "Thesis: Design & Implementation of a Fraud Detection System for Autonomous Teams. Source code and thesis is open source and can be found here: https://github.com/BA-LouisAndrew/.",
+      "summary": "Thesis: Design & Implementation of a Fraud Detection System for Autonomous Teams. GitHub: https://github.com/BA-LouisAndrew/.",
       "location": "Berlin, Germany"
     }
   ],
